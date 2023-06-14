@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="500.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="jptv21clickme.FXMLDocumentController">
+    <children>
+        <Button id="btnClickMe" fx:id="button" ellipsisString="" layoutX="126.0" layoutY="90.0" onAction="#handleButtonAction" text="Нажми" textAlignment="CENTER" wrapText="true">
+         <opaqueInsets>
+            
+         </opaqueInsets>
+         <font>
+            
+         </font></Button>
+        <Label id="lblLevel" fx:id="label" layoutX="21.0" layoutY="21.0" minHeight="16" minWidth="69">
+         <font>
+            
+         </font></Label>
+    </children>
+</AnchorPane>
